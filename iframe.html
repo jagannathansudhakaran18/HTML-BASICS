@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Multimedia Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+            border: none;
+            margin: 15px 0;
+        }
+        audio, video {
+            margin: 15px 0;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2> Embedded Video using Iframe (YouTube)</h2>
+    <iframe src="https://www.youtube.com/watch?v=09JYAZEoOOk" allowfullscreen></iframe>
+
+    <h2> Audio Example</h2>
+    <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <h2> Video Example</h2>
+    <video width="560" height="315" controls>
+        <source src="sample.mp3" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
